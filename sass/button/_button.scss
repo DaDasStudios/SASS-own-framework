@@ -1,0 +1,115 @@
+// Variables
+@use "../variables/colors" as colors;
+
+$btn-padding-y: .5rem;
+$btn-padding-x: .5rem;
+
+$btn-lg-padding-y: 1rem;
+$btn-lg-padding-x: 1rem;
+
+$btn-sm-padding-y: .25rem;
+$btn-sm-padding-x: .25rem;
+
+@mixin btn($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    cursor: pointer;
+}
+
+.btn {
+    border: 1px solid transparent;
+    outline: none;
+    padding: $btn-padding-y $btn-padding-x;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: color 200ms ease-in-out, background-color 300ms ease-in-out, opacity 300ms ease-in-out;
+
+    &:hover {
+        opacity: .85;
+    }
+
+    &.btn-lg {
+        padding: $btn-lg-padding-y $btn-lg-padding-x;
+        font-size: 1.25rem;
+    }
+
+    &.btn-md {
+        padding: $btn-padding-y $btn-padding-x;
+        font-size: 1rem;
+    }
+
+    &.btn-sm {
+        padding: $btn-sm-padding-y $btn-sm-padding-x;
+        font-size: .85rem
+    }
+}
+
+.btn.btn-primary {
+    @include btn(colors.$primary, colors.$white);
+}
+
+.btn.btn-secondary {
+    @include btn(colors.$secondary, colors.$white);
+}
+
+.btn.btn-terciary {
+    @include btn(colors.$terciary, colors.$white);
+}
+
+.btn.btn-quaternary {
+    @include btn(colors.$quaternary, colors.$white);
+}
+
+/* Util */
+
+.btn.btn-success {
+    @include btn(colors.$success, colors.$white);
+}
+
+.btn.btn-success-light {
+    @include btn(colors.$success-light, colors.$white);
+}
+
+.btn.btn-danger {
+    @include btn(colors.$danger, colors.$white);
+}
+
+.btn.btn-danger-light {
+    @include btn(colors.$danger-light, colors.$white);
+}
+
+.btn.btn-warning {
+    @include btn(colors.$warning, colors.$white);
+}
+
+.btn.btn-warning-light {
+    @include btn(colors.$warning-light, colors.$white);
+}
+
+.btn.btn-info {
+    @include btn(colors.$info, colors.$white);
+}
+
+.btn.btn-info-light {
+    @include btn(colors.$info-light, colors.$white);
+}
+
+.btn.btn-dark {
+    @include btn(colors.$dark, colors.$white);
+}
+
+.btn.btn-white {
+    @include btn(colors.$white, colors.$black);
+
+    &:hover {
+        background-color: colors.$dim;
+    }
+}
+
+.btn.btn-light {
+    @include btn(colors.$dim, colors.$black);
+
+    &:hover {
+        background-color: colors.$white;
+    }
+}

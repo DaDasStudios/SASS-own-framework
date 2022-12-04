@@ -1,0 +1,139 @@
+// Variables
+@use "../variables/colors" as colors;
+
+$card-padding-y: 1rem;
+$card-padding-x: 1rem;
+$sm-card-padding-y: .5rem;
+$sm-card-padding-x: .5rem;
+
+$bold-card-text: 550;
+
+$card-child-color: #555;
+$card-dark-bg: rgba(0, 0, 0, 0.06);
+
+@mixin card($bg-color: white, $text-color: $card-child-color){
+    display: inline-flex;
+    flex-direction: column;
+    background-color: $bg-color;
+    border-radius: 5px;
+    border: 1px solid colors.$border-color;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+
+    > .card-header {
+        background-color: $card-dark-bg;
+        border-bottom: 1px solid colors.$border-color;
+        padding: $sm-card-padding-y $card-padding-x;
+        color: $text-color;
+    }
+
+    .card-img {
+        width: 100%;
+        object-fit: cover;
+        -o-object-fit: cover;
+    }
+
+    .card-img-overlay {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+    }
+    
+    .card-body {
+        padding: $card-padding-y $card-padding-x;
+        color: $text-color;
+        height: 100%;
+
+        .card-title {
+            font-weight: $bold-card-text;
+            font-size: 1.25rem;
+            margin-bottom: $sm-card-padding-y;
+        }
+
+        .card-text {
+            margin-bottom: $card-padding-x;
+        }
+    }
+    
+    ul.card-list-group {
+        list-style: none;
+
+        li.card-list-item   {
+            padding: $sm-card-padding-y $card-padding-x;
+            border-bottom: 1px solid colors.$border-color;
+            color: $text-color;
+        }
+    }
+
+    .card-footer {
+        background-color: $card-dark-bg;
+        border-top: 1px solid colors.$border-color;
+        padding: $sm-card-padding-y $card-padding-x;
+        color: $text-color;
+    }
+}
+
+/* Basic cards */
+
+.card {
+    @include card();
+}
+
+.card-dark {
+    @include card(colors.$dark, colors.$white);
+}
+
+/* Theme cards */
+
+.card-primary {
+    @include card(colors.$primary, colors.$white)
+}
+
+.card-secondary {
+    @include card(colors.$secondary, colors.$white)
+}
+
+.card-terciary {
+    @include card(colors.$terciary, colors.$white)
+}
+
+.card-quaternary {
+    @include card(colors.$quaternary, colors.$white)
+}
+
+/* Util card */
+
+.card-success {
+    @include card(colors.$success, colors.$white)
+}
+
+.card-success-light {
+    @include card(colors.$success-light, colors.$white)
+}
+
+.card-danger {
+    @include card(colors.$danger, colors.$white)
+}
+
+.card-danger-light {
+    @include card(colors.$danger-light, colors.$white)
+}
+
+.card-info {
+    @include card(colors.$info, colors.$white)
+}
+
+.card-info-light {
+    @include card(colors.$info-light, colors.$white)
+}
+
+.card-warning {
+    @include card(colors.$warning, colors.$white)
+}
+
+.card-warning-light {
+    @include card(colors.$warning-light, colors.$white)
+}
+
+/* Outlined card */

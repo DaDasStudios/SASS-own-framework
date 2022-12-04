@@ -1,0 +1,82 @@
+@use "sass:string";
+
+$btn-group-vertical: column;
+$btn-group-horizontal: row;
+
+
+@mixin btn-group($align) {
+    display: inline-flex;
+    flex-direction: $align;
+
+    &.btn-bd-left-none {
+        .btn:not(:first-child) {
+            @if $align == "column" {
+                border-top: none;
+            } @else {
+                border-left: none;
+            }
+        }
+    }
+
+    &.btn-bd-right-none {
+        .btn:not(:last-child) {
+             @if $align == "column" {
+                border-bottom: none;
+            } @else {
+                border-right: none;
+            }
+        }
+    }
+
+    &.btn-bd-inner-none {
+        .btn:not(:first-child) {
+            @if $align == "column" {
+                border-top: none;
+            } @else {
+                border-left: none;
+            }
+        }
+        .btn:not(:last-child) { 
+            @if $align == "column" {
+                border-bottom: none;
+            } @else {
+                border-right: none;
+            }
+        }
+    }
+
+    .btn {
+        border-radius: 0px;
+    }
+
+    @if $align == "column" {
+        .btn:first-child {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .btn:last-child {
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    } @else {
+        .btn:first-child {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .btn:last-child {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+}
+
+
+.btn-group-vertical {
+    @include btn-group($btn-group-vertical);
+}   
+
+.btn-group {
+    @include btn-group($btn-group-horizontal);
+}  

@@ -1,0 +1,30 @@
+// Variables
+@use "../variables/colors" as colors;
+
+$cg-gap: 0rem;
+
+$cg-radius: 7px;
+
+@mixin card-group() {
+    display: flex;
+    gap: $cg-gap;
+    align-items: stretch;
+
+    .card:first-child{
+        border-bottom-left-radius: $cg-radius;  
+        border-top-left-radius: $cg-radius;
+    }
+
+    .card:last-child{
+        border-bottom-right-radius: $cg-radius;
+        border-top-right-radius: $cg-radius;
+    }
+    .card {
+        border-radius: 0px;
+        flex: 1
+    }
+}
+
+.card-group {
+    @include card-group();
+}

@@ -1,0 +1,301 @@
+// Variables
+@use "../variables/colors" as colors;
+
+/* Text color */
+
+.cl-primary {
+    color: colors.$primary !important;
+}
+
+.cl-secondary {
+    color: colors.$secondary !important;
+}
+
+.cl-terciary {
+    color: colors.$terciary !important;
+}
+
+.cl-quaternary {
+    color: colors.$quaternary !important;
+}
+
+.cl-success {
+    color: colors.$success !important;
+}
+.cl-danger {
+    color: colors.$danger !important;
+}
+.cl-info {
+    color: colors.$info !important;
+}
+.cl-warning {
+    color: colors.$warning !important;
+}
+
+.cl-muted {
+    color: colors.$muted !important;
+}
+
+/* Background */
+
+.bg-primary {
+    background-color: colors.$primary !important;
+}
+
+.bg-secondary {
+    background-color: colors.$secondary !important;
+}
+
+.bg-terciary {
+    background-color: colors.$terciary !important;
+}
+
+.bg-quaternary {
+    background-color: colors.$quaternary !important;
+}
+
+.bg-success {
+    background-color: colors.$success !important;
+}
+
+.bg-success-light {
+    background-color: colors.$success-light !important;
+}
+
+.bg-danger {
+    background-color: colors.$danger !important;
+}
+.bg-danger-light {
+    background-color: colors.$danger-light !important;
+}
+
+.bg-info {
+    background-color: colors.$info !important;
+}
+.bg-info-light {
+    background-color: colors.$info-light !important;
+}
+
+.bg-warning {
+    background-color: colors.$warning !important;
+}
+.bg-warning-light {
+    background-color: colors.$warning-light !important;
+}
+
+.bg-dark {
+    background-color: colors.$dark !important;
+}
+
+/* Border color */
+
+.bd-primary {
+    border-color: colors.$primary !important;
+}
+
+.bd-secondary {
+    border-color: colors.$secondary !important;
+}
+
+.bd-terciary {
+    border-color: colors.$terciary !important;
+}
+
+.bd-quaternary {
+    border-color: colors.$quaternary !important;
+}
+
+.bd-success {
+    border-color: colors.$success !important;
+}
+.bd-success-light {
+    border-color: colors.$success-light !important;
+}
+
+.bd-danger {
+    border-color: colors.$danger !important;
+}
+.bd-danger-light {
+    border-color: colors.$danger-light !important;
+}
+
+.bd-info {
+    border-color: colors.$info !important;
+}
+.bd-info-light {
+    border-color: colors.$info-light !important;
+}
+
+.bd-warning {
+    border-color: colors.$warning !important;
+}
+.bd-warning-light {
+    border-color: colors.$warning-light !important;
+}
+
+.bd-dark {
+    border-color: colors.$dark !important;
+}
+
+
+
+
+/* Text color for GENERAL colors */
+
+.cl-white {
+    color: colors.$white !important;
+}
+
+.cl-black {
+    color: colors.$black !important;
+}
+
+.cl-grey {
+    color: colors.$grey !important;
+}
+
+.cl-red {
+    color: colors.$red !important;
+}
+
+.cl-blue {
+    color: colors.$blue !important;
+}
+
+.cl-sky {
+    color: colors.$sky !important;
+}
+
+.cl-green {
+    color: colors.$green !important;
+}
+
+.cl-emerald {
+    color: colors.$emerald !important;
+}
+
+.cl-muted {
+    color: colors.$muted !important;
+}
+
+
+.cl-yellow {
+    color: colors.$yellow !important;
+}
+
+.cl-orange {
+    color: colors.$orange !important;
+}
+
+.cl-pink {
+    color: colors.$pink !important;
+}
+
+.cl-dark {
+    color: colors.$dark !important;
+}
+
+
+.cl-purple {
+    color: colors.$purple !important;
+}
+
+/* Background color for general colors */
+
+.bg-white {
+    background-color: colors.$white !important;
+}
+
+.bg-black {
+    background-color: colors.$black !important;
+}
+
+.bg-grey {
+    background-color: colors.$grey !important;
+}
+
+.bg-red {
+    background-color: colors.$red !important;
+}
+
+.bg-blue {
+    background-color: colors.$blue !important;
+}
+
+.bg-sky {
+    background-color: colors.$sky !important;
+}
+
+.bg-green {
+    background-color: colors.$green !important;
+}
+
+.bg-emerald {
+    background-color: colors.$emerald !important;
+}
+
+.bg-yellow {
+    background-color: colors.$yellow !important;
+}
+
+.bg-orange {
+    background-color: colors.$orange !important;
+}
+
+.bg-pink {
+    background-color: colors.$pink !important;
+}
+
+.bg-purple {
+    background-color: colors.$purple !important;
+}
+
+/* Border colors */
+
+.bd-white {
+    border-color: colors.$white !important;
+}
+
+.bd-black {
+    border-color: colors.$black !important;
+}
+
+.bd-grey {
+    border-color: colors.$grey !important;
+}
+
+.bd-red {
+    border-color: colors.$red !important;
+}
+
+.bd-blue {
+    border-color: colors.$blue !important;
+}
+
+.bd-sky {
+    border-color: colors.$sky !important;
+}
+
+.bd-green {
+    border-color: colors.$green !important;
+}
+
+.bd-emerald {
+    border-color: colors.$emerald !important;
+}
+
+.bd-yellow {
+    border-color: colors.$yellow !important;
+}
+
+.bd-orange {
+    border-color: colors.$orange !important;
+}
+
+.bd-pink {
+    border-color: colors.$pink !important;
+}
+
+.bg-purple {
+    border-color: colors.$purple !important;
+}

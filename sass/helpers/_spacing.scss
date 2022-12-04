@@ -1,0 +1,449 @@
+// Variables
+@use "../variables/spacing" as spacing;
+
+/* MARGIN */
+
+.m-auto {
+    margin: spacing.$lauto;
+}
+.m-0 {
+    margin: spacing.$l0;
+}
+.m-1 {
+    margin: spacing.$l1;
+}
+.m-2 {
+    margin: spacing.$l2;
+}
+.m-3 {
+    margin: spacing.$l3;
+}
+.m-4 {
+    margin: spacing.$l4;
+}
+.m-5 {
+    margin: spacing.$l5;
+}
+.m-6 {
+    margin: spacing.$l6;
+}
+
+/* X AXIS */
+
+.mx-auto {
+    margin-left: spacing.$lauto;
+    margin-right: spacing.$lauto;
+}
+.mx-0 {
+    margin-left: spacing.$l0;
+    margin-right: spacing.$l0;
+}
+.mx-1 {
+    margin-left: spacing.$l1;
+    margin-right: spacing.$l1;
+}
+.mx-2 {
+    margin-left: spacing.$l2;
+    margin-right: spacing.$l2;
+}
+.mx-3 {
+    margin-left: spacing.$l3;
+    margin-right: spacing.$l3;
+}
+.mx-4 {
+    margin-left: spacing.$l4;
+    margin-right: spacing.$l4;
+}
+.mx-5 {
+    margin-left: spacing.$l5;
+    margin-right: spacing.$l5;
+}
+.mx-6 {
+    margin-left: spacing.$l6;
+    margin-right: spacing.$l6;
+}
+
+/* Y AXIS */
+
+.my-auto {
+    margin-top: spacing.$lauto;
+    margin-bottom: spacing.$lauto;
+}
+.my-0 {
+    margin-top: spacing.$l0;
+    margin-bottom: spacing.$l0;
+}
+.my-1 {
+    margin-top: spacing.$l1;
+    margin-bottom: spacing.$l1;
+}
+.my-2 {
+    margin-top: spacing.$l2;
+    margin-bottom: spacing.$l2;
+}
+.my-3 {
+    margin-top: spacing.$l3;
+    margin-bottom: spacing.$l3;
+}
+.my-4 {
+    margin-top: spacing.$l4;
+    margin-bottom: spacing.$l4;
+}
+.my-5 {
+    margin-top: spacing.$l5;
+    margin-bottom: spacing.$l5;
+}
+.my-6 {
+    margin-top: spacing.$l6;
+    margin-bottom: spacing.$l6;
+}
+
+/* TOP */
+
+.mt-auto {
+    margin-top: spacing.$lauto;
+}
+.mt-0 {
+    margin-top: spacing.$l0;
+}
+.mt-1 {
+    margin-top: spacing.$l1;
+}
+.mt-2 {
+    margin-top: spacing.$l2;
+}
+.mt-3 {
+    margin-top: spacing.$l3;
+}
+.mt-4 {
+    margin-top: spacing.$l4;
+}
+.mt-5 {
+    margin-top: spacing.$l5;
+}
+.mt-6 {
+    margin-top: spacing.$l6;
+}
+
+/* BOTTOM */
+
+.mb-auto {
+    margin-bottom: spacing.$lauto;
+}
+.mb-0 {
+    margin-bottom: spacing.$l0;
+}
+.mb-1 {
+    margin-bottom: spacing.$l1;
+}
+.mb-2 {
+    margin-bottom: spacing.$l2;
+}
+.mb-3 {
+    margin-bottom: spacing.$l3;
+}
+.mb-4 {
+    margin-bottom: spacing.$l4;
+}
+.mb-5 {
+    margin-bottom: spacing.$l5;
+}
+.mb-6 {
+    margin-bottom: spacing.$l6;
+}
+
+/* RIGHT */
+
+.mr-auto {
+    margin-right: spacing.$lauto;
+}
+.mr-0 {
+    margin-right: spacing.$l0;
+}
+.mr-1 {
+    margin-right: spacing.$l1;
+}
+.mr-2 {
+    margin-right: spacing.$l2;
+}
+.mr-3 {
+    margin-right: spacing.$l3;
+}
+.mr-4 {
+    margin-right: spacing.$l4;
+}
+.mr-5 {
+    margin-right: spacing.$l5;
+}
+.mr-6 {
+    margin-right: spacing.$l6;
+}
+
+/* LEFT */
+
+.ml-auto {
+    margin-left: spacing.$lauto;
+}
+.ml-0 {
+    margin-left: spacing.$l0;
+}
+.ml-1 {
+    margin-left: spacing.$l1;
+}
+.ml-2 {
+    margin-left: spacing.$l2;
+}
+.ml-3 {
+    margin-left: spacing.$l3;
+}
+.ml-4 {
+    margin-left: spacing.$l4;
+}
+.ml-5 {
+    margin-left: spacing.$l5;
+}
+.ml-6 {
+    margin-left: spacing.$l6;
+}
+
+
+
+
+/* PADDING */
+
+.p-auto {
+    padding: spacing.$lauto;
+}
+.p-0 {
+    padding: spacing.$l0;
+}
+.p-1 {
+    padding: spacing.$l1;
+}
+.p-2 {
+    padding: spacing.$l2;
+}
+.p-3 {
+    padding: spacing.$l3;
+}
+.p-4 {
+    padding: spacing.$l4;
+}
+.p-5 {
+    padding: spacing.$l5;
+}
+.p-6 {
+    padding: spacing.$l6;
+}
+
+/* X AXIS */
+
+.px-auto {
+    padding-left: spacing.$lauto;
+    padding-right: spacing.$lauto;
+}
+.px-0 {
+    padding-left: spacing.$l0;
+    padding-right: spacing.$l0;
+}
+.px-1 {
+    padding-left: spacing.$l1;
+    padding-right: spacing.$l1;
+}
+.px-2 {
+    padding-left: spacing.$l2;
+    padding-right: spacing.$l2;
+}
+.px-3 {
+    padding-left: spacing.$l3;
+    padding-right: spacing.$l3;
+}
+.px-4 {
+    padding-left: spacing.$l4;
+    padding-right: spacing.$l4;
+}
+.px-5 {
+    padding-left: spacing.$l5;
+    padding-right: spacing.$l5;
+}
+.px-6 {
+    padding-left: spacing.$l6;
+    padding-right: spacing.$l6;
+}
+
+/* Y AXIS */
+
+.py-auto {
+    padding-top: spacing.$lauto;
+    padding-bottom: spacing.$lauto;
+}
+.py-0 {
+    padding-top: spacing.$l0;
+    padding-bottom: spacing.$l0;
+}
+.py-1 {
+    padding-top: spacing.$l1;
+    padding-bottom: spacing.$l1;
+}
+.py-2 {
+    padding-top: spacing.$l2;
+    padding-bottom: spacing.$l2;
+}
+.py-3 {
+    padding-top: spacing.$l3;
+    padding-bottom: spacing.$l3;
+}
+.py-4 {
+    padding-top: spacing.$l4;
+    padding-bottom: spacing.$l4;
+}
+.py-5 {
+    padding-top: spacing.$l5;
+    padding-bottom: spacing.$l5;
+}
+.py-6 {
+    padding-top: spacing.$l6;
+    padding-bottom: spacing.$l6;
+}
+
+/* TOP */
+
+.pt-auto {
+    padding-top: spacing.$lauto;
+}
+.pt-0 {
+    padding-top: spacing.$l0;
+}
+.pt-1 {
+    padding-top: spacing.$l1;
+}
+.pt-2 {
+    padding-top: spacing.$l2;
+}
+.pt-3 {
+    padding-top: spacing.$l3;
+}
+.pt-4 {
+    padding-top: spacing.$l4;
+}
+.pt-5 {
+    padding-top: spacing.$l5;
+}
+.pt-6 {
+    padding-top: spacing.$l6;
+}
+
+/* BOTTOM */
+
+.pb-auto {
+    padding-bottom: spacing.$lauto;
+}
+.pb-0 {
+    padding-bottom: spacing.$l0;
+}
+.pb-1 {
+    padding-bottom: spacing.$l1;
+}
+.pb-2 {
+    padding-bottom: spacing.$l2;
+}
+.pb-3 {
+    padding-bottom: spacing.$l3;
+}
+.pb-4 {
+    padding-bottom: spacing.$l4;
+}
+.pb-5 {
+    padding-bottom: spacing.$l5;
+}
+.pb-6 {
+    padding-bottom: spacing.$l6;
+}
+
+/* RIGHT */
+
+.pr-auto {
+    padding-right: spacing.$lauto;
+}
+.pr-0 {
+    padding-right: spacing.$l0;
+}
+.pr-1 {
+    padding-right: spacing.$l1;
+}
+.pr-2 {
+    padding-right: spacing.$l2;
+}
+.pr-3 {
+    padding-right: spacing.$l3;
+}
+.pr-4 {
+    padding-right: spacing.$l4;
+}
+.pr-5 {
+    padding-right: spacing.$l5;
+}
+.pr-6 {
+    padding-right: spacing.$l6;
+}
+
+/* LEFT */
+
+.pl-auto {
+    padding-left: spacing.$lauto;
+}
+.pl-0 {
+    padding-left: spacing.$l0;
+}
+.pl-1 {
+    padding-left: spacing.$l1;
+}
+.pl-2 {
+    padding-left: spacing.$l2;
+}
+.pl-3 {
+    padding-left: spacing.$l3;
+}
+.pl-4 {
+    padding-left: spacing.$l4;
+}
+.pl-5 {
+    padding-left: spacing.$l5;
+}
+.pl-6 {
+    padding-left: spacing.$l6;
+}
+
+/* GAP */
+
+.g-auto {
+    gap: spacing.$lauto;
+}
+
+.g-0{
+    gap: spacing.$l0;
+}
+
+.g-1 {
+    gap: spacing.$l1;
+}
+
+.g-2 {
+    gap: spacing.$l2;
+}
+
+.g-3 {
+    gap: spacing.$l3;
+}
+
+.g-4 {
+    gap: spacing.$l4;
+}
+
+.g-5 {
+    gap: spacing.$l5;
+}
+
+.g-6 {
+    gap: spacing.$l6;
+}

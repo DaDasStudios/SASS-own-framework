@@ -1,0 +1,18 @@
+// Variables
+@use "../variables/colors" as colors;
+
+$badge-padding-y: .5rem;
+$badge-padding-x: .5rem;
+
+$badge-radius: 7px;
+$badge-fw: 700;
+$badge-fs: .85rem;
+
+.badge {
+    display: inline-block;
+    padding: $badge-padding-y $badge-padding-x;
+    border-radius: $badge-radius;
+    font-weight: $badge-fw;
+    font-size: $badge-fs;
+    color: colors.$white;
+}
