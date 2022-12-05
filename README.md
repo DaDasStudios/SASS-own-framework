@@ -1,4 +1,4 @@
-# SASS---Customframework
+# SASS - Own framework
 A set of classes of SASS ready to use and customize (similar to Bulma)
 
 ## The approach of this "framework"
